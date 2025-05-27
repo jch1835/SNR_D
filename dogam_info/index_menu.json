@@ -1,0 +1,150 @@
+[
+   {
+      "navButtons": [
+        { "id": "character-dogam", "label": "영웅 도감", "active": true },
+        { "id": "pet-dogam", "label": "펫 도감", "active": false },
+        { "id": "equip-dogam", "label": "장비 도감", "active": false }
+      ]
+   },
+
+   {
+      "data1Filters": [
+    {
+      "label": "스페셜",
+      "type": "스페셜",
+      "subFilters": [
+        { "label": "세븐나이츠", "type": "세븐나이츠" },
+        { "label": "(구)세븐나이츠", "type": "(구)세븐나이츠" },
+        { "label": "사황", "type": "사황" },
+        { "label": "????", "type": "????" }
+      ]
+    },
+    {
+      "label": "일반 영웅",
+      "type": "일반 영웅",
+      "subFilters": [
+        { "label": "에반원정대", "type": "에반원정대" },
+        { "label": "모험가", "type": "모험가" },
+        { "label": "테라영지", "type": "테라영지" },
+        { "label": "성십자단", "type": "성십자단" },
+        { "label": "그림자단", "type": "그림자단" }
+      ]
+    },
+    {
+      "label": "아스드 대륙",
+      "type": "아스드 대륙",
+      "subFilters": [
+        { "label": "신비의 숲", "type": "신비의 숲" },
+        { "label": "침묵의 광산", "type": "침묵의 광산" },
+        { "label": "화염의 사막", "type": "화염의 사막" },
+        { "label": "암흑의 무덤", "type": "암흑의 무덤" },
+        { "label": "용의 유적지", "type": "용의 유적지" },
+        { "label": "눈보라의 대지", "type": "눈보라의 대지" },
+        { "label": "복수자의 지옥", "type": "복수자의 지옥" }
+      ]
+    },
+    {
+      "label": "아이사 대륙",
+      "type": "아이사 대륙",
+      "subFilters": [
+        { "label": "달빛의 섬", "type": "달빛의 섬" },
+        { "label": "천자의 땅 서쪽", "type": "천자의 땅 서쪽" },
+        { "label": "천자의 땅 동쪽", "type": "천자의 땅 동쪽" },
+        { "label": "어둠의 안식처", "type": "어둠의 안식처" }
+      ]
+    },
+    {
+      "label": "기타",
+      "type": "기타",
+      "subFilters": [
+        { "label": "특수영웅", "type": "특수영웅" }
+      ]
+    }
+  ]
+},
+
+{
+    "data2Filters": [
+    {
+      "label": "스페셜 펫",
+      "type": "스페셜 펫",
+      "subFilters": [
+        { "label": "세븐나이츠", "type": "세븐나이츠" },
+        { "label": "(구)사황", "type": "(구)사황" }
+      ]
+    },
+    {
+      "label": "일반 펫",
+      "type": "일반 펫",
+      "subFilters": [
+        { "label": "에반원정대", "type": "에반원정대" },
+        { "label": "모험가", "type": "모험가" },
+        { "label": "테라영지", "type": "테라영지" },
+        { "label": "성십자단", "type": "성십자단" }
+      ]
+    },
+    {
+      "label": "아스드 펫",
+      "type": "아스드 펫",
+      "subFilters": [
+        { "label": "아스드 펫", "type": "아스트 펫" }
+      ]
+    },
+    {
+      "label": "아이사 펫",
+      "type": "아이사 펫",
+      "subFilters": [
+        { "label": "아이사 펫", "type": "아이사 펫" }
+      ]
+    },
+    {
+      "label": "기타 펫",
+      "type": "기타 펫",
+      "subFilters": [
+        { "label": "기타 펫", "type": "기타 펫" }
+      ]
+    }
+  ]
+},
+
+{
+    "data3Filters": [
+    {
+      "label": "일반 장비",
+      "type": "일반 장비",
+      "subFilters": [
+        { "label": "선봉장", "type": "선봉장" },
+        { "label": "성기사", "type": "성기사" }
+      ]
+    },
+    {
+      "label": "레이드 장비",
+      "type": "레이드 장비",
+      "subFilters": [
+        { "label": "선봉장", "type": "선봉장" },
+        { "label": "추적자", "type": "추적자" },
+        { "label": "성기사", "type": "성기사" },
+        { "label": "수문장", "type": "수문장" },
+        { "label": "수호자", "type": "수호자" },
+        { "label": "암살자", "type": "암살자" },
+        { "label": "복수자", "type": "복수자" }
+      ]
+    },
+    {
+      "label": "세븐나이츠 장비",
+      "type": "세븐나이츠 장비",
+      "subFilters": [
+        { "label": "무기", "type": "무기" },
+        { "label": "방어구", "type": "방어구" }
+      ]
+    },
+    {
+      "label": "장신구",
+      "type": "장신구",
+      "subFilters": [
+        { "label": "장신구", "type": "장신구" }
+      ]
+    }
+  ]
+}
+]

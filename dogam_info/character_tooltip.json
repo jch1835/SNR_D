@@ -1,0 +1,7 @@
+{
+  "tooltip_data": {
+    "물리 공격력": "<img src='../image/icon/단일적군_아이콘.png' style='width:30px; vertical-align:middle; margin-right:10px;'> 캐릭터의 물리적 공격 능력치를 의미합니다.",
+    "방어력": "캐릭터가 받는 피해를 감소시키는 수치입니다.",
+    "1회": "1번 공격이 적용됩니다."
+  }
+}

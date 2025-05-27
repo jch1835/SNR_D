@@ -1,0 +1,50 @@
+[
+    { "id": 1,
+      "name": "루디",
+      "data1": "스페셜",
+      "data2": "세븐나이츠",
+      "image-sum": "image/special/seven/루디_6성_아이콘.png",
+      "image-mini": "image/special/seven/루디_6성_아이콘.png",
+      "image-mini2": "image/special/seven/루디_5성_아이콘.png",
+      "image-mini3": "image/special/seven/루디_4성_아이콘.png",
+      "image-full": "image/special/seven/루디_6성_전신2.png",
+      "image-full2": "image/special/seven/루디_5성_전신2.png",
+      "image-full3": "image/special/seven/루디_4성_전신2.png",
+      "image-skill": "image/special/seven/루디_기본공격.png"
+    },     
+    
+    { "id": 2, 
+      "name": "아일린",
+      "data1": "스페셜",
+      "data2": "세븐나이츠",
+      "image-sum": "image/special/seven/아일린_6성_아이콘.png" 
+    },
+
+    { "id": 3,
+      "name": "레이첼",
+      "data1": "스페셜",
+      "data2": "세븐나이츠",
+      "image-sum": "image/special/seven/레이첼_6성_아이콘.png"
+    },
+    
+    { 
+      "id": 4, "name": "델론즈",
+      "data1": "스페셜",
+      "data2": "세븐나이츠",
+      "image-sum": "image/special/seven/델론즈_6성_아이콘.png"
+    },
+
+    { "id": 5,
+      "name": "스파이크",
+      "data1": "스페셜",
+      "data2": "세븐나이츠",
+      "image-sum": "image/special/seven/스파이크_6성_아이콘.png"
+    },
+
+    { "id": 6,
+      "name": "제이브",
+      "data1": "스페셜",
+      "data2": "세븐나이츠",
+      "image-sum": "image/special/seven/제이브_6성_아이콘.png"
+    }
+]

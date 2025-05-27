@@ -1,0 +1,106 @@
+/* 전체 배경 */
+body {
+  font-family: sans-serif;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 20px;
+}
+
+/* 헤더 */
+header {
+  text-align: center;
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+/* 네비게이션 버튼 */
+#nav-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 30px;
+}
+
+.nav-btn {
+  background-color: #e0e0e0;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 16px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.nav-btn.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+/* 구분 1, 2 영역 공통 */
+.filter-box {
+  background: white;
+  padding: 10px;
+  width: 400px;          /* 너비 고정 */
+  min-height: 430px;     /* 최소 높이 지정: 필요에 따라 조절 */
+  box-sizing: border-box;
+  overflow-y: auto;      /* 내용이 넘치면 스크롤 생김 */
+  margin-top: 20px;
+}
+
+#filters {
+  display: flex;
+  gap: 20px;
+}
+
+.filter-box h2,
+.filter-box h3 {
+  margin-top: 10;
+}
+
+/* 구분 1, 2 버튼 스타일 */
+.data1-btn,
+.data2-btn {
+  display: block;
+  width: 100%;
+  padding: 8px;
+  margin: 5px 0;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  background-color: #e0e0e0;
+  cursor: pointer;
+  text-align: center;
+}
+
+/* 선택된 버튼 (active) */
+.data1-btn.active,
+.data2-btn.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+#cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);  /* 한 줄에 3개 */
+  gap: 10px;
+  margin-top: 50px;
+}
+
+.character-card {
+  text-align: center;
+  padding: 10px;
+  background: #f5f5f5;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.character-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.character-card p {
+  margin-top: 5px;
+  font-size: 14px;
+  font-weight: bold;
+}
