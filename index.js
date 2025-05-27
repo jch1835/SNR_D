@@ -1,11 +1,11 @@
 // JSON 데이터 로드
-fetch('../dogam_info/index_menu.json')
+fetch('dogam_info/index_menu.json')
   .then(response => response.json())
   .then(jsonData => {
     const data = mergeJson(jsonData);
 
     // 캐릭터 데이터도 불러오기 (예: character_data.json)
-    fetch('../dogam_info/character_info.json')
+    fetch('dogam_info/character_info.json')
       .then(response => response.json())
       .then(characterData => {
         init(data, characterData);
