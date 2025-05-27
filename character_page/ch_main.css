@@ -1,0 +1,66 @@
+body {
+  font-family: sans-serif;
+  padding: 20px;
+  background: #f9f9f9;
+}
+
+.character-detail {
+  max-width: 600px;
+  margin: auto;
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.character-detail img {
+  width: 100%;
+  max-width: 400px;
+  border-radius: 10px;
+  margin: 20px 0;
+}
+
+.character-detail ul {
+  list-style: none;
+  padding: 0;
+}
+
+.character-detail li {
+  text-align: left;
+  margin: 5px 0;
+}
+
+.character-detail a {
+  display: inline-block;
+  margin-top: 20px;
+  text-decoration: none;
+  color: #007BFF;
+}
+
+#home-button {
+  position: fixed;
+  bottom: 20px;
+  right: 22px;
+  display: flex;             /* flex 추가 */
+  flex-direction: column;    /* 세로 정렬 */
+  align-items: center;       /* 가운데 정렬 */
+  cursor: pointer;
+  z-index: 1000;
+}
+
+#home-button img {
+  width: 60px;
+  height: 60px;
+}
+
+#home-text {
+  display: block;
+  background-color: rgba(0, 0, 0, 0.75);
+  color: white;
+  padding: 6px 12px;
+  border-radius: 8px;
+  font-size: 14px;
+  margin-top: -20px;
+  white-space: nowrap;
+}

@@ -134,8 +134,14 @@ function init(data, characters) {
       card.className = "character-card";
       card.innerHTML = `
         <img src="${char['image-sum']}" alt="${char.name}" />
-        <p>${char.name}</p>
       `;
+
+      // 카드 클릭 이벤트
+card.addEventListener("click", () => {
+  // ch_main.html로 이동 + URL에 파라미터로 캐릭터 ID 넘기기
+  window.location.href = `character_page/ch_main.html?id=${char.id}`;
+});
+  
       cardsContainer.appendChild(card);
     });
   }
