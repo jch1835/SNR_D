@@ -4,6 +4,8 @@ body {
   background-color: #f0f0f0;
   margin: 0;
   padding: 20px;
+  touch-action: manipulation;
+  overscroll-behavior: none;
 }
 
 /* 헤더 */
@@ -53,7 +55,7 @@ header {
 
 .filter-box h2,
 .filter-box h3 {
-  margin-top: 10;
+  margin-top: 10px;
 }
 
 /* 구분 1, 2 버튼 스타일 */
